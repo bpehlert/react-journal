@@ -6,6 +6,7 @@ const mapEntries = entries =>
     return (
       <Entry
         key={i}
+        index
         id={entries[i].id}
         date={entries[i].date}
         text={entries[i].text}
